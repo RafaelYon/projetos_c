@@ -50,25 +50,41 @@ void print_int_largest_than_avarage(int largest, float avarage)
 void show_largest_than_avarage(int a, int b, int c, int d)
 {
 	float avarage = get_avarage(a, b, c, d);
+	
+	bool have_largest_value = false;
 
 	if (a > avarage)
 	{
 		print_int_largest_than_avarage(a, avarage);
+
+		have_largest_value = true;
 	}
 
 	if (b > avarage)
 	{
 		print_int_largest_than_avarage(b, avarage);
+
+		have_largest_value = true;
 	}
 
 	if (c > avarage)
 	{
 		print_int_largest_than_avarage(c, avarage);
+
+		have_largest_value = true;
 	}
 
 	if (d > avarage)
 	{
 		print_int_largest_than_avarage(d, avarage);
+
+		have_largest_value = true;
+	}
+
+	// Exibe messagem indicando que não há valores maiores que a média
+	if (!have_largest_value)
+	{
+		printf("Nao ha valores que sao maiores que a sua propria media: %f\n", avarage);
 	}
 }
 
@@ -89,6 +105,8 @@ int main()
 	printf("O maior entre os 4 valores informados e: %d\n", result);
 
 	show_largest_than_avarage(a, b, c, d);
+
+	printf("\n");
 	
 	system("pause");
 	
