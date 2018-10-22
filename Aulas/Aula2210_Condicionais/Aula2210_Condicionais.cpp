@@ -104,6 +104,35 @@ void print_is_even_or_not(int number)
 	printf("\n");
 }
 
+void switch_example()
+{
+	printf("Escolha uma opção:\n");
+	printf("1 - a\n2 - b\n3 - c\n4 - d\n");
+
+	int op = 0;
+
+	// %i -> indentifica a base numérica automáticamente
+	scanf_s("%i", &op);
+
+	switch (op)
+	{
+	case 1:
+		printf("Voce escolheu \"a\"");
+		break;
+	case 2:
+		printf("Voce escolheu \"b\"");
+		break;
+	case 3:
+		printf("Voce escolheu \"c\"");
+		break;
+	case 4:
+		printf("Voce escolheu \"d\"");
+		break;
+	default:
+		printf("A opcao \"%i\" que voce selecionou nao e valida", op);
+		break;
+	}
+}
 
 int main()
 {
@@ -124,6 +153,9 @@ int main()
 	print_is_even_or_not(result);
 
 	show_largest_than_avarage(a, b, c, d);
+
+	// Monsta um menu para exemplificar o switch
+	switch_example();
 
 	printf("\n");
 	
