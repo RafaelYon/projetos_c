@@ -16,22 +16,24 @@ int read_int()
 
 int get_largest_int(int a, int b, int c, int d)
 {
-	if (a > b && a > c && a > d)
+	int largest = a;
+
+	if (largest < b)
 	{
-		return a;
+		largest = b;
 	}
-	else if (b > a && b > c && b > d)
+
+	if (largest < c)
 	{
-		return b;
+		largest = c;
 	}
-	else if (c > a && c > b && c > d)
+
+	if (largest < d)
 	{
-		return c;
+		largest = d;
 	}
-	else
-	{
-		return d;
-	}
+
+	return largest;
 }
 
 
