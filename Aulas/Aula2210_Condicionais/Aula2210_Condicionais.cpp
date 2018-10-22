@@ -88,6 +88,22 @@ void show_largest_than_avarage(int a, int b, int c, int d)
 	}
 }
 
+void print_is_even_or_not(int number)
+{
+	printf("O numero %d e ", number);
+	
+	if (number % 2 == 0)
+	{
+		printf("par");
+	}
+	else
+	{
+		printf("impar");
+	}
+
+	printf("\n");
+}
+
 
 int main()
 {
@@ -103,6 +119,9 @@ int main()
 	result = get_largest_int(a, b, c, d);
 
 	printf("O maior entre os 4 valores informados e: %d\n", result);
+
+	// Exibe se o maior número é par ou impar
+	print_is_even_or_not(result);
 
 	show_largest_than_avarage(a, b, c, d);
 
