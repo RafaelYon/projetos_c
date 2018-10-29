@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula2410_CalculoImpostoDeRe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula2410_Loops", "Aula2410_Loops\Aula2410_Loops.vcxproj", "{3DBB4BAD-0E89-4BF8-B3EA-A9F9FA36E3D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula2910", "Aula2910\Aula2910.vcxproj", "{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{3DBB4BAD-0E89-4BF8-B3EA-A9F9FA36E3D4}.Release|x64.Build.0 = Release|x64
 		{3DBB4BAD-0E89-4BF8-B3EA-A9F9FA36E3D4}.Release|x86.ActiveCfg = Release|Win32
 		{3DBB4BAD-0E89-4BF8-B3EA-A9F9FA36E3D4}.Release|x86.Build.0 = Release|Win32
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Debug|x64.ActiveCfg = Debug|x64
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Debug|x64.Build.0 = Debug|x64
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Debug|x86.Build.0 = Debug|Win32
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Release|x64.ActiveCfg = Release|x64
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Release|x64.Build.0 = Release|x64
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Release|x86.ActiveCfg = Release|Win32
+		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
