@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula2910", "Aula2910\Aula29
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula1411_Ponteiros", "Aula1411_Ponteiros\Aula1411_Ponteiros.vcxproj", "{EFAF5209-BEE2-4C9A-B13F-CE09B9158DB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aula1411_Structs", "Aula1411_Structs\Aula1411_Structs.vcxproj", "{D42DFEDB-061B-41BC-BF08-96294CAFC93C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -93,16 +95,6 @@ Global
 		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Release|x64.Build.0 = Release|x64
 		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Release|x86.ActiveCfg = Release|Win32
 		{FDCA0E8C-DC43-4515-8203-D7BD8AF45965}.Release|x86.Build.0 = Release|Win32
-<<<<<<< HEAD
-=======
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Debug|x64.ActiveCfg = Debug|x64
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Debug|x64.Build.0 = Debug|x64
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Debug|x86.ActiveCfg = Debug|Win32
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Debug|x86.Build.0 = Debug|Win32
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Release|x64.ActiveCfg = Release|x64
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Release|x64.Build.0 = Release|x64
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Release|x86.ActiveCfg = Release|Win32
-		{37CD4709-8F5A-4F82-B975-42D0E147FD04}.Release|x86.Build.0 = Release|Win32
 		{EFAF5209-BEE2-4C9A-B13F-CE09B9158DB3}.Debug|x64.ActiveCfg = Debug|x64
 		{EFAF5209-BEE2-4C9A-B13F-CE09B9158DB3}.Debug|x64.Build.0 = Debug|x64
 		{EFAF5209-BEE2-4C9A-B13F-CE09B9158DB3}.Debug|x86.ActiveCfg = Debug|Win32
@@ -111,7 +103,14 @@ Global
 		{EFAF5209-BEE2-4C9A-B13F-CE09B9158DB3}.Release|x64.Build.0 = Release|x64
 		{EFAF5209-BEE2-4C9A-B13F-CE09B9158DB3}.Release|x86.ActiveCfg = Release|Win32
 		{EFAF5209-BEE2-4C9A-B13F-CE09B9158DB3}.Release|x86.Build.0 = Release|Win32
->>>>>>> fadbdd8... Criado duas funções para aplicar os conceito de ponteiro.
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Debug|x64.ActiveCfg = Debug|x64
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Debug|x64.Build.0 = Debug|x64
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Debug|x86.ActiveCfg = Debug|Win32
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Debug|x86.Build.0 = Debug|Win32
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Release|x64.ActiveCfg = Release|x64
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Release|x64.Build.0 = Release|x64
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Release|x86.ActiveCfg = Release|Win32
+		{D42DFEDB-061B-41BC-BF08-96294CAFC93C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
